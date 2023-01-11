@@ -1,0 +1,82 @@
+:root {
+  --primary-color: #f5f2fe;
+  --secondary-color: #691818;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 0 auto;
+  display: block;
+  background: radial-gradient(
+    circle,
+    rgba(250, 208, 132, 1) 0%,
+    rgba(122, 46, 37, 1) 100%,
+    rgba(105, 24, 24, 1) 100%
+  );
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+}
+.contact-link:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  transition: ease-in-out 150ms;
+}
+
+.about-link {
+  box-shadow: var(--box-shadow);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.about-link:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  transition: ease-in-out 150ms;
+}
+
+.myphoto {
+  padding: 50px;
+  max-width: 530px;
+  border-radius: 4px;
+  box-shadow: 1px 3px 1px 5px #f5f2fe;
+}
+.myinfo {
+  padding-top: 50px;
+}
