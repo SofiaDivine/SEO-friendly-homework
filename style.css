@@ -80,3 +80,39 @@ h3 {
 .myinfo {
   padding-top: 50px;
 }
+
+@media (max-width: 1199px) {
+  .myphoto {
+    margin: 0 auto !important;
+    display: block !important;
+    padding: 10px;
+    max-width: 300px;
+    border-radius: 1px;
+    box-shadow: 1px 3px 1px 5px #f5f2fe;
+  }
+  .myinfo {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+  }
+  h1,
+  h3 {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+  }
+  h5 {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+  }
+}
