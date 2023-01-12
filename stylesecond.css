@@ -67,3 +67,20 @@ h3 {
   padding-top: 40px;
   width: 600px !important;
 }
+
+@media (max-width: 819px) {
+  .img-weather,
+  .img-dog {
+    size: 270px !important;
+  }
+  .email-link {
+    font-size: 18px;
+  }
+  p,
+  a,
+  h2 {
+    margin: 0 auto !important;
+    display: block !important;
+    text-align: center !important;
+  }
+}

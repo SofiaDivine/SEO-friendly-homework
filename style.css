@@ -81,7 +81,7 @@ h3 {
   padding-top: 50px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 819px) {
   .myphoto {
     margin: 0 auto !important;
     display: block !important;
@@ -92,27 +92,43 @@ h3 {
   }
   .myinfo {
     width: 90%;
-    display: flex;
+    margin: 0 auto;
+    display: block;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 16px;
   }
   h1,
   h3 {
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     font-size: 16px;
   }
   h5 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 299px) {
+  .myphoto {
+    margin: 0 auto !important;
+    display: block !important;
+    padding: 5px;
+    max-width: 200px;
+    border-radius: 1px;
+    box-shadow: 1px 3px 1px 5px #f5f2fe;
+  }
+  .myinfo {
     width: 90%;
-    display: flex;
+    margin: 0 auto;
+    display: block;
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+  h1,
+  h3 {
     font-size: 14px;
+  }
+  h5 {
+    font-size: 12px;
   }
 }
